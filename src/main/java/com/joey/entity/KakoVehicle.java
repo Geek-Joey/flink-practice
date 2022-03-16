@@ -3,6 +3,7 @@ package com.joey.entity;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * @author joey
@@ -11,15 +12,15 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class KakoVehicle {
+public class KakoVehicle<String, I extends Number> {
     private String motorVehicleID;
-    private int infoKind;
+    private Integer infoKind;
 
     public KakoVehicle() {
 
     }
 
-    public KakoVehicle(String motorVehicleID, int infoKind) {
+    public KakoVehicle(String motorVehicleID, Integer infoKind) {
         this.motorVehicleID = motorVehicleID;
         this.infoKind = infoKind;
     }
@@ -29,9 +30,9 @@ public class KakoVehicle {
     }
 
     @Override
-    public String toString() {
+    public java.lang.String toString() {
         return "KakoVehicle{" +
-                "motorVehicleID='" + motorVehicleID + '\'' +
+                "motorVehicleID=" + motorVehicleID +
                 ", infoKind=" + infoKind +
                 '}';
     }

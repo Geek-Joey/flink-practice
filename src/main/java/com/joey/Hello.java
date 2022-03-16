@@ -14,7 +14,7 @@ public class Hello {
         System.out.println("Hello Flink !");
 
         //test lombok getter
-        KakoVehicle device = new KakoVehicle("3121213516263");
+        KakoVehicle<String, Number> device = new KakoVehicle<String, Number>("3121213516263");
         String motorVehicleID = device.getMotorVehicleID();
         System.out.println("Lombok: " + motorVehicleID);
 
@@ -23,7 +23,7 @@ public class Hello {
         System.out.println("随机生成48位数字字符串：" + randStr);
 
         //test FastJson
-        KakoVehicle vehicle = new KakoVehicle("3121213516263", 1);
+        KakoVehicle<String, Number> vehicle = new KakoVehicle<String, Number>("3121213516263", 1);
         String jsonStr = JSON.toJSONString(vehicle);
         System.out.println("Object->JSON: " + jsonStr);
 
@@ -33,7 +33,7 @@ public class Hello {
 
         while (true) {
 
-            KakoVehicle obj = getRandmKakoVehicle();
+            KakoVehicle<String, Number> obj = getRandmKakoVehicle();
             String json = JSON.toJSONString(obj);
             count ++;
             System.out.println(count + ":" + json);
@@ -66,10 +66,10 @@ public class Hello {
      * 随机生成一个实例 KakoVehicle
      * @return
      */
-    public static KakoVehicle getRandmKakoVehicle() {
+    public static KakoVehicle<String, Number> getRandmKakoVehicle() {
         String motorVehicleID = getRandomString(48);
         int infoKind = new Random().nextInt(2);
-        KakoVehicle vehicle = new KakoVehicle(motorVehicleID,infoKind);
+        KakoVehicle<String, Number> vehicle = new KakoVehicle<String, Number>(motorVehicleID,infoKind);
         return vehicle;
     }
 }

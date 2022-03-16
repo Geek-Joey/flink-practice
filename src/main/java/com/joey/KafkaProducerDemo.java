@@ -21,7 +21,7 @@ import java.util.Random;
  * @author joey
  * @create 2022-02-17 10:42 AM
  */
-public class KafkaProducer {
+public class KafkaProducerDemo {
     public static void main(String[] args) throws Exception{
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         //1.source,传入自定义的source
@@ -30,14 +30,14 @@ public class KafkaProducer {
 
         //2.set kafka properties
         Properties properties = new Properties();
-        properties.setProperty("bootstrap.servers", "192.168.3.243:9092");
+        properties.setProperty("bootstrap.servers", "172.16.1.193:9092");
 
         KafkaSerializationSchema<String> serializationSchema = new KafkaSerializationSchema<String>() {
             @Override
             public ProducerRecord<byte[], byte[]> serialize(String element, @Nullable Long timestamp) {
 
                 return new ProducerRecord<>(
-                  "abc",
+                  "test-flink",
                   element.getBytes(StandardCharsets.UTF_8)
                 );
             }
@@ -121,7 +121,7 @@ public class KafkaProducer {
     public static String getRandmKakoVehicle() {
         String motorVehicleID = StringUtils.getRandomString(48);
         int infoKind = new Random().nextInt(2);
-        KakoVehicle vehicle = new KakoVehicle(motorVehicleID,infoKind);
+        KakoVehicle<String, Number> vehicle = new KakoVehicle<String, Number>(motorVehicleID,infoKind);
         String jsonString = JSON.toJSONString(vehicle);
         return jsonString;
     }
