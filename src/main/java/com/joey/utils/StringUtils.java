@@ -22,4 +22,8 @@ public class StringUtils {
         }
         return stringBuffer.toString();
     }
+
+    public static void main(String[] args) {
+        System.out.println(StringUtils.getRandomString(15));
+    }
 }

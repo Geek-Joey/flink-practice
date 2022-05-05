@@ -921,3 +921,1752 @@ Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Defau
 -Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
 -Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
 Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@6456bbab
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 3523 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@7714429b
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 1733 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@5fb425e9
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 1928 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 1941 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@1874ca13
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 1981 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 2006 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@6467afe7
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 2147 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@7714429b
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 3853 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 3869 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@7742cd47
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 26982 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@147206f1
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 27027 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 27190 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@5dca99e2
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 27216 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 27226 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 31624 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@67c5d6c
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 31643 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 31654 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 33856 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 33870 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 33876 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@72c56edb
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 33905 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 33914 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 50433 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 50441 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 50460 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 50675 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 50680 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@2645ebda
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 50871 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@7ad8c08c
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 50880 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@4321a7df
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 52158 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 52166 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@2295a1a2
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 52193 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@5f587683
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 52224 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@c7ecf3c
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 52267 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@1878fb16
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 62520 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@228679fc
+Using Log4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 76039 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
+-Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
+Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@bfb043b

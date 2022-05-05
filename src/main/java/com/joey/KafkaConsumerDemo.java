@@ -11,7 +11,6 @@ import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.connector.kafka.source.enumerator.initializer.OffsetsInitializer;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.kafka.clients.consumer.OffsetResetStrategy;
 
 import java.util.Properties;
 
@@ -23,17 +22,21 @@ import java.util.Properties;
 public class KafkaConsumerDemo {
     public static void main(String[] args) {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+        //开启checkpoint
+        env.enableCheckpointing(10000);
 
         Properties properties = new Properties();
-        properties.setProperty("enable.auto.commit","true");
-        properties.setProperty("auto.commit.interval.ms","1000");
+        //properties.setProperty("enable.auto.commit","true");
+//        properties.setProperty("auto.offset.reset","latest");
+//        properties.setProperty("enable.auto.commit","true");
+//        properties.setProperty("auto.commit.interval.ms","1000");
 
         KafkaSource<String> source = KafkaSource.<String>builder()
                 .setBootstrapServers("172.16.1.193:9092")
                 .setTopics("test-flink")
-                .setGroupId("testFlinkDSGroup")
-                //.setStartingOffsets(OffsetsInitializer.earliest())
-                .setStartingOffsets(OffsetsInitializer.committedOffsets(OffsetResetStrategy.EARLIEST))
+                .setGroupId("flink-kafka2print-5")
+                .setStartingOffsets(OffsetsInitializer.earliest())
+                //.setStartingOffsets(OffsetsInitializer.committedOffsets(OffsetResetStrategy.EARLIEST))
                 .setValueOnlyDeserializer(new SimpleStringSchema())
                 .setProperties(properties)
                 .build();

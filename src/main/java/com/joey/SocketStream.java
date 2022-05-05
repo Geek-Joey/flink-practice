@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
  * @author joey
  * @create 2022-02-24 11:29 PM
  */
-public class StreamWordCount2 {
+public class SocketStream {
     public static void main(String[] args) throws Exception{
         // TODO 1.创建执行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();

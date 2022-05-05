@@ -44,7 +44,7 @@ public class KafkaProducerDemo {
         };
         //3.create fink producer
         FlinkKafkaProducer flinkKafkaProducer = new FlinkKafkaProducer(
-                "abc",
+                "test-flink",
                 serializationSchema,
                 properties,
                 FlinkKafkaProducer.Semantic.EXACTLY_ONCE
