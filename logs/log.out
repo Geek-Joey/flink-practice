@@ -2670,3 +2670,1102 @@ Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Defau
 -Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkAccessible: true
 -Dorg.apache.flink.shaded.netty4.io.netty.buffer.checkBounds: true
 Loaded default ResourceLeakDetector: org.apache.flink.shaded.netty4.io.netty.util.ResourceLeakDetector@bfb043b
+Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:468)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:439)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:516)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:78)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3559)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3554)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3391)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:485)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:233)
+	at com.joey.HDFSClient.getFiledSystem(HDFSClient.java:29)
+	at com.joey.HDFSClient.readHDFSFile(HDFSClient.java:42)
+	at com.joey.HDFSClient.main(HDFSClient.java:24)
+setsid is not available on this machine. So not using it.
+setsid exited with exit code 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[GetGroups])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since startup])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since last successful login])
+UgiMetrics, User and group related metrics
+Setting hadoop.security.token.service.use_ip to true
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+java.library.path=/Users/joey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Falling back to shell based
+Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:UnixPrincipal: joey
+Using user: "UnixPrincipal: joey" with name joey
+User entry: "joey"
+UGI loginUser:joey (auth:SIMPLE)
+sampler.classes = ; loaded no samplers
+span.receiver.classes = ; loaded no span receivers
+Loading filesystems
+file:// = class org.apache.hadoop.fs.LocalFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+viewfs:// = class org.apache.hadoop.fs.viewfs.ViewFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+har:// = class org.apache.hadoop.fs.HarFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+http:// = class org.apache.hadoop.fs.http.HttpFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+https:// = class org.apache.hadoop.fs.http.HttpsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+hdfs:// = class org.apache.hadoop.hdfs.DistributedFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+webhdfs:// = class org.apache.hadoop.hdfs.web.WebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+swebhdfs:// = class org.apache.hadoop.hdfs.web.SWebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+Looking for FS supporting file
+looking for configuration option fs.file.impl
+Looking in service filesystems for implementation class
+FS for file is class org.apache.hadoop.fs.LocalFileSystem
+Completed shutdown in 0.006 seconds; Timeouts: 0
+ShutdownHookManager completed shutdown.
+Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:468)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:439)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:516)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:78)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3559)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3554)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3391)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:485)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:233)
+	at com.joey.HDFSClient.main(HDFSClient.java:27)
+setsid is not available on this machine. So not using it.
+setsid exited with exit code 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[GetGroups])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since startup])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since last successful login])
+UgiMetrics, User and group related metrics
+Setting hadoop.security.token.service.use_ip to true
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+java.library.path=/Users/joey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Falling back to shell based
+Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:UnixPrincipal: joey
+Using user: "UnixPrincipal: joey" with name joey
+User entry: "joey"
+UGI loginUser:joey (auth:SIMPLE)
+sampler.classes = ; loaded no samplers
+span.receiver.classes = ; loaded no span receivers
+Loading filesystems
+file:// = class org.apache.hadoop.fs.LocalFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+viewfs:// = class org.apache.hadoop.fs.viewfs.ViewFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+har:// = class org.apache.hadoop.fs.HarFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+http:// = class org.apache.hadoop.fs.http.HttpFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+https:// = class org.apache.hadoop.fs.http.HttpsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+hdfs:// = class org.apache.hadoop.hdfs.DistributedFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+webhdfs:// = class org.apache.hadoop.hdfs.web.WebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+swebhdfs:// = class org.apache.hadoop.hdfs.web.SWebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+Looking for FS supporting file
+looking for configuration option fs.file.impl
+Looking in service filesystems for implementation class
+FS for file is class org.apache.hadoop.fs.LocalFileSystem
+Completed shutdown in 0.007 seconds; Timeouts: 0
+ShutdownHookManager completed shutdown.
+Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:468)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:439)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:516)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:78)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3559)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3554)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3391)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:485)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:233)
+	at com.joey.HDFSClient.main(HDFSClient.java:27)
+setsid is not available on this machine. So not using it.
+setsid exited with exit code 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[GetGroups])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since startup])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since last successful login])
+UgiMetrics, User and group related metrics
+Setting hadoop.security.token.service.use_ip to true
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+java.library.path=/Users/joey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Falling back to shell based
+Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:UnixPrincipal: joey
+Using user: "UnixPrincipal: joey" with name joey
+User entry: "joey"
+UGI loginUser:joey (auth:SIMPLE)
+sampler.classes = ; loaded no samplers
+span.receiver.classes = ; loaded no span receivers
+Loading filesystems
+file:// = class org.apache.hadoop.fs.LocalFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+viewfs:// = class org.apache.hadoop.fs.viewfs.ViewFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+har:// = class org.apache.hadoop.fs.HarFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+http:// = class org.apache.hadoop.fs.http.HttpFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+https:// = class org.apache.hadoop.fs.http.HttpsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+hdfs:// = class org.apache.hadoop.hdfs.DistributedFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+webhdfs:// = class org.apache.hadoop.hdfs.web.WebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+swebhdfs:// = class org.apache.hadoop.hdfs.web.SWebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+Looking for FS supporting file
+looking for configuration option fs.file.impl
+Looking in service filesystems for implementation class
+FS for file is class org.apache.hadoop.fs.LocalFileSystem
+Completed shutdown in 0.008 seconds; Timeouts: 0
+ShutdownHookManager completed shutdown.
+Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:468)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:439)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:516)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:78)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3559)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3554)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3391)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:485)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:233)
+	at com.joey.HDFSClient.getFiledSystem(HDFSClient.java:29)
+	at com.joey.HDFSClient.readHDFSFile(HDFSClient.java:44)
+	at com.joey.HDFSClient.main(HDFSClient.java:24)
+setsid is not available on this machine. So not using it.
+setsid exited with exit code 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[GetGroups])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since startup])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since last successful login])
+UgiMetrics, User and group related metrics
+Setting hadoop.security.token.service.use_ip to true
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+java.library.path=/Users/joey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Falling back to shell based
+Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:UnixPrincipal: joey
+Using user: "UnixPrincipal: joey" with name joey
+User entry: "joey"
+UGI loginUser:joey (auth:SIMPLE)
+sampler.classes = ; loaded no samplers
+span.receiver.classes = ; loaded no span receivers
+Loading filesystems
+file:// = class org.apache.hadoop.fs.LocalFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+viewfs:// = class org.apache.hadoop.fs.viewfs.ViewFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+har:// = class org.apache.hadoop.fs.HarFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+http:// = class org.apache.hadoop.fs.http.HttpFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+https:// = class org.apache.hadoop.fs.http.HttpsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+hdfs:// = class org.apache.hadoop.hdfs.DistributedFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+webhdfs:// = class org.apache.hadoop.hdfs.web.WebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+swebhdfs:// = class org.apache.hadoop.hdfs.web.SWebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+Looking for FS supporting file
+looking for configuration option fs.file.impl
+Looking in service filesystems for implementation class
+FS for file is class org.apache.hadoop.fs.LocalFileSystem
+Completed shutdown in 0.005 seconds; Timeouts: 0
+ShutdownHookManager completed shutdown.
+Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:468)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:439)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:516)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:78)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3559)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3554)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3391)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:485)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:233)
+	at com.joey.HDFSClient.getFiledSystem(HDFSClient.java:29)
+	at com.joey.HDFSClient.readHDFSFile(HDFSClient.java:44)
+	at com.joey.HDFSClient.main(HDFSClient.java:24)
+setsid is not available on this machine. So not using it.
+setsid exited with exit code 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[GetGroups])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since startup])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since last successful login])
+UgiMetrics, User and group related metrics
+Setting hadoop.security.token.service.use_ip to true
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+java.library.path=/Users/joey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Falling back to shell based
+Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:UnixPrincipal: joey
+Using user: "UnixPrincipal: joey" with name joey
+User entry: "joey"
+UGI loginUser:joey (auth:SIMPLE)
+sampler.classes = ; loaded no samplers
+span.receiver.classes = ; loaded no span receivers
+Loading filesystems
+file:// = class org.apache.hadoop.fs.LocalFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+viewfs:// = class org.apache.hadoop.fs.viewfs.ViewFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+har:// = class org.apache.hadoop.fs.HarFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+http:// = class org.apache.hadoop.fs.http.HttpFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+https:// = class org.apache.hadoop.fs.http.HttpsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+hdfs:// = class org.apache.hadoop.hdfs.DistributedFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+webhdfs:// = class org.apache.hadoop.hdfs.web.WebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+swebhdfs:// = class org.apache.hadoop.hdfs.web.SWebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+Looking for FS supporting file
+looking for configuration option fs.file.impl
+Looking in service filesystems for implementation class
+FS for file is class org.apache.hadoop.fs.LocalFileSystem
+Completed shutdown in 0.009 seconds; Timeouts: 0
+ShutdownHookManager completed shutdown.
+Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:468)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:439)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:516)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:78)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3559)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:3554)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:3391)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:485)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:233)
+	at com.joey.HDFSClient.getFiledSystem(HDFSClient.java:31)
+	at com.joey.HDFSClient.writeHDFS(HDFSClient.java:70)
+	at com.joey.HDFSClient.main(HDFSClient.java:25)
+setsid is not available on this machine. So not using it.
+setsid exited with exit code 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)])
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[GetGroups])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since startup])
+field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, valueName=Time, about=, interval=10, type=DEFAULT, value=[Renewal failures since last successful login])
+UgiMetrics, User and group related metrics
+Setting hadoop.security.token.service.use_ip to true
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+java.library.path=/Users/joey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Falling back to shell based
+Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:UnixPrincipal: joey
+Using user: "UnixPrincipal: joey" with name joey
+User entry: "joey"
+UGI loginUser:joey (auth:SIMPLE)
+sampler.classes = ; loaded no samplers
+span.receiver.classes = ; loaded no span receivers
+Loading filesystems
+file:// = class org.apache.hadoop.fs.LocalFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+viewfs:// = class org.apache.hadoop.fs.viewfs.ViewFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+har:// = class org.apache.hadoop.fs.HarFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+http:// = class org.apache.hadoop.fs.http.HttpFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+https:// = class org.apache.hadoop.fs.http.HttpsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-common/3.2.3/hadoop-common-3.2.3.jar
+hdfs:// = class org.apache.hadoop.hdfs.DistributedFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+webhdfs:// = class org.apache.hadoop.hdfs.web.WebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+swebhdfs:// = class org.apache.hadoop.hdfs.web.SWebHdfsFileSystem from /Users/joey/DevelopKit/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.3/hadoop-hdfs-client-3.2.3.jar
+Looking for FS supporting file
+looking for configuration option fs.file.impl
+Looking in service filesystems for implementation class
+FS for file is class org.apache.hadoop.fs.LocalFileSystem
+Completed shutdown in 0.006 seconds; Timeouts: 0
+ShutdownHookManager completed shutdown.
+Plan after converting SqlNode to RelNode
+LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+  LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+iteration: 1
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#7:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#6,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#5:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#4,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize convert table references before rewriting sub-queries to semi-join cost 12 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#12:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#11,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#10:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#9,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize rewrite sub-queries to semi-join cost 1 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#17:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#16,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#15:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#14,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize sub-queries remove cost 1 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#22:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#21,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#20:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#19,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize convert table references after sub-queries removed cost 0 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+optimize subquery_rewrite cost 25 ms.
+optimize result: 
+LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+iteration: 1
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#27:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#26,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#25:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#24,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize convert correlate to temporal table join cost 1 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#32:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#31,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#30:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#29,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize convert enumerable table scan cost 0 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+optimize temporal_join_rewrite cost 1 ms.
+optimize result: 
+LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+iteration: 1
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#37:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#36,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#35:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#34,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize pre-rewrite before decorrelation cost 1 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+optimize  cost 7 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+optimize decorrelate cost 8 ms.
+optimize result: 
+LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+call#1: Apply rule [ReduceExpressionsRule(Project)] to [rel#40:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#39,inputs=0..3)]
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+ReduceExpressionsRule(Project)                                                 1              10,971
+* Total                                                                        1              10,971
+
+For final plan, using rel#42:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#41,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#40:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#39,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize default_rewrite cost 13 ms.
+optimize result: 
+LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+iteration: 1
+call#2: Apply rule [ReduceExpressionsRule(Project)] to [rel#45:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#44,inputs=0..3)]
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+ReduceExpressionsRule(Project)                                                 1                  33
+* Total                                                                        1                  33
+
+For final plan, using rel#47:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#46,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#45:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#44,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize filter rules cost 1 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#52:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#51,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#50:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#49,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize push predicate into table scan cost 0 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#57:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#56,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#55:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#54,inputs=0..3)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize prune empty after predicate push down cost 1 ms.
+optimize result:
+ LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+optimize predicate_pushdown cost 2 ms.
+optimize result: 
+LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalProject(order_number=[$0], price=[$1], buyer=[$2], order_time=[$3])
+   +- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+call#3: Apply rule [ProjectRemoveRule] to [rel#60:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#59,inputs=0..3)]
+call#3: Rule ProjectRemoveRule arguments [rel#60:LogicalProject.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#59,inputs=0..3)] produced rel#59:HepRelVertex(rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders]))
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+ProjectRemoveRule                                                              1                 368
+* Total                                                                        1                 368
+
+For final plan, using rel#62:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=HepRelVertex#59,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+optimize project_rewrite cost 2 ms.
+optimize result: 
+LogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- LogicalTableScan(table=[[default_catalog, default_database, Orders]])
+
+PLANNER = org.apache.calcite.plan.volcano.IterativeRuleDriver@503df2d0; COST = {inf}
+Pop match: rule [FlinkLogicalTableSourceScanConverter(in:NONE,out:LOGICAL)] rels [#1]
+call#14: Apply rule [FlinkLogicalTableSourceScanConverter(in:NONE,out:LOGICAL)] to [rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])]
+Transform to: rel#69 via FlinkLogicalTableSourceScanConverter(in:NONE,out:LOGICAL)
+call#14 generated 1 successors: [rel#69:FlinkLogicalTableSourceScan.LOGICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)]
+PLANNER = org.apache.calcite.plan.volcano.IterativeRuleDriver@503df2d0; COST = {inf}
+Pop match: rule [FlinkLogicalSinkConverter(in:NONE,out:LOGICAL)] rels [#65]
+call#24: Apply rule [FlinkLogicalSinkConverter(in:NONE,out:LOGICAL)] to [rel#65:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=RelSubset#64,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)]
+Transform to: rel#71 via FlinkLogicalSinkConverter(in:NONE,out:LOGICAL)
+call#24 generated 1 successors: [rel#71:FlinkLogicalSink.LOGICAL.any.None: 0.[NONE].[NONE](input=RelSubset#70,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)]
+PLANNER = org.apache.calcite.plan.volcano.IterativeRuleDriver@503df2d0; COST = {2.0E8 rows, 2.0E8 cpu, 5.6E9 io, 0.0 network, 0.0 memory}
+Rule Attempts Info for VolcanoPlanner
+
+Rules                                                                   Attempts           Time (us)
+FlinkLogicalTableSourceScanConverter(in:NONE,out:LOGICAL)                      1              44,944
+FlinkLogicalSinkConverter(in:NONE,out:LOGICAL)                                 1              33,761
+* Total                                                                        2              78,705
+
+Cheapest plan:
+FlinkLogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time]): rowcount = 1.0E8, cumulative cost = {2.0E8 rows, 2.0E8 cpu, 5.6E9 io, 0.0 network, 0.0 memory}, id = 72
+  FlinkLogicalTableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]): rowcount = 1.0E8, cumulative cost = {1.0E8 rows, 1.0E8 cpu, 5.6E9 io, 0.0 network, 0.0 memory}, id = 69
+
+Provenance:
+rel#72:FlinkLogicalSink.LOGICAL.any.None: 0.[NONE].[NONE](input=FlinkLogicalTableSourceScan#69,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+  direct
+    rel#71:FlinkLogicalSink.LOGICAL.any.None: 0.[NONE].[NONE](input=RelSubset#70,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+      call#24 rule [FlinkLogicalSinkConverter(in:NONE,out:LOGICAL)]
+        rel#65:LogicalSink.NONE.any.None: 0.[NONE].[NONE](input=RelSubset#64,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+          no parent
+rel#69:FlinkLogicalTableSourceScan.LOGICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)
+  call#14 rule [FlinkLogicalTableSourceScanConverter(in:NONE,out:LOGICAL)]
+    rel#1:LogicalTableScan.NONE.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders])
+      no parent
+
+optimize logical cost 183 ms.
+optimize result: 
+FlinkLogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- FlinkLogicalTableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#74:FlinkLogicalSink.LOGICAL.any.None: 0.[NONE].[NONE](input=HepRelVertex#73,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#69:FlinkLogicalTableSourceScan.LOGICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)
+optimize logical_rewrite cost 1 ms.
+optimize result: 
+FlinkLogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- FlinkLogicalTableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+optimize time_indicator cost 4 ms.
+optimize result: 
+FlinkLogicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- FlinkLogicalTableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+PLANNER = org.apache.calcite.plan.volcano.IterativeRuleDriver@503df2d0; COST = {inf}
+Pop match: rule [StreamPhysicalTableSourceScanRule(in:LOGICAL,out:STREAM_PHYSICAL)] rels [#69]
+call#43: Apply rule [StreamPhysicalTableSourceScanRule(in:LOGICAL,out:STREAM_PHYSICAL)] to [rel#69:FlinkLogicalTableSourceScan.LOGICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)]
+Transform to: rel#82 via StreamPhysicalTableSourceScanRule(in:LOGICAL,out:STREAM_PHYSICAL)
+call#43 generated 1 successors: [rel#82:StreamPhysicalTableSourceScan.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)]
+PLANNER = org.apache.calcite.plan.volcano.IterativeRuleDriver@503df2d0; COST = {inf}
+Pop match: rule [StreamPhysicalSinkRule(in:LOGICAL,out:STREAM_PHYSICAL)] rels [#78]
+call#68: Apply rule [StreamPhysicalSinkRule(in:LOGICAL,out:STREAM_PHYSICAL)] to [rel#78:FlinkLogicalSink.LOGICAL.any.None: 0.[NONE].[NONE](input=RelSubset#77,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)]
+Transform to: rel#84 via StreamPhysicalSinkRule(in:LOGICAL,out:STREAM_PHYSICAL)
+call#68 generated 1 successors: [rel#84:StreamPhysicalSink.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](input=RelSubset#83,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)]
+PLANNER = org.apache.calcite.plan.volcano.IterativeRuleDriver@503df2d0; COST = {2.0E8 rows, 2.0E8 cpu, 5.6E9 io, 0.0 network, 0.0 memory}
+Rule Attempts Info for VolcanoPlanner
+
+Rules                                                                   Attempts           Time (us)
+FlinkLogicalTableSourceScanConverter(in:NONE,out:LOGICAL)                      1              44,944
+FlinkLogicalSinkConverter(in:NONE,out:LOGICAL)                                 1              33,761
+StreamPhysicalTableSourceScanRule(in:LOGICAL,out:STREAM_PHYSICAL)                   1              31,733
+StreamPhysicalSinkRule(in:LOGICAL,out:STREAM_PHYSICAL)                         1              13,502
+* Total                                                                        4             123,940
+
+Cheapest plan:
+StreamPhysicalSink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time]): rowcount = 1.0E8, cumulative cost = {2.0E8 rows, 2.0E8 cpu, 5.6E9 io, 0.0 network, 0.0 memory}, id = 85
+  StreamPhysicalTableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]): rowcount = 1.0E8, cumulative cost = {1.0E8 rows, 1.0E8 cpu, 5.6E9 io, 0.0 network, 0.0 memory}, id = 82
+
+Provenance:
+rel#85:StreamPhysicalSink.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](input=StreamPhysicalTableSourceScan#82,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+  direct
+    rel#84:StreamPhysicalSink.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](input=RelSubset#83,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+      call#68 rule [StreamPhysicalSinkRule(in:LOGICAL,out:STREAM_PHYSICAL)]
+        rel#78:FlinkLogicalSink.LOGICAL.any.None: 0.[NONE].[NONE](input=RelSubset#77,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+          no parent
+rel#82:StreamPhysicalTableSourceScan.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)
+  call#43 rule [StreamPhysicalTableSourceScanRule(in:LOGICAL,out:STREAM_PHYSICAL)]
+    rel#69:FlinkLogicalTableSourceScan.LOGICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)
+      no parent
+
+optimize physical cost 57 ms.
+optimize result: 
+Sink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+iteration: 1
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#87:StreamPhysicalSink.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](input=HepRelVertex#86,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#82:StreamPhysicalTableSourceScan.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)
+optimize watermark transpose cost 0 ms.
+optimize result:
+ Sink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+optimize Changelog mode inference cost 4 ms.
+optimize result:
+ Sink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+optimize Initialization for mini-batch interval inference cost 0 ms.
+optimize result:
+ Sink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+call#75: Apply rule [MiniBatchIntervalInferRule] to [rel#96:StreamPhysicalSink.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](input=HepRelVertex#95,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)]
+call#76: Apply rule [MiniBatchIntervalInferRule] to [rel#92:StreamPhysicalTableSourceScan.STREAM_PHYSICAL.any.None: 0.[I].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)]
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+MiniBatchIntervalInferRule                                                     2                 876
+* Total                                                                        2                 876
+
+For final plan, using rel#96:StreamPhysicalSink.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](input=HepRelVertex#95,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#92:StreamPhysicalTableSourceScan.STREAM_PHYSICAL.any.None: 0.[I].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)
+optimize mini-batch interval rules cost 2 ms.
+optimize result:
+ Sink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+Rule Attempts Info for HepPlanner
+
+Rules                                                                   Attempts           Time (us)
+* Total                                                                        0                   0
+
+For final plan, using rel#99:StreamPhysicalSink.STREAM_PHYSICAL.any.None: 0.[NONE].[NONE](input=HepRelVertex#98,table=default_catalog.default_database.Unregistered_DataStream_Sink_1,fields=order_number, price, buyer, order_time)
+For final plan, using rel#92:StreamPhysicalTableSourceScan.STREAM_PHYSICAL.any.None: 0.[I].[NONE](table=[default_catalog, default_database, Orders],fields=order_number, price, buyer, order_time)
+optimize physical rewrite cost 0 ms.
+optimize result:
+ Sink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+optimize physical_rewrite cost 6 ms.
+optimize result: 
+Sink(table=[default_catalog.default_database.Unregistered_DataStream_Sink_1], fields=[order_number, price, buyer, order_time])
++- TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])
+
+Dig to clean the org.apache.flink.connector.datagen.table.types.RowDataGenerator
+Dig to clean the [Lorg.apache.flink.streaming.api.functions.source.datagen.DataGenerator;
+Dig to clean the [Ljava.lang.String;
+Dig to clean the java.lang.Long
+Dig to clean the org.apache.flink.api.common.functions.util.PrintSinkOutputWriter
+Dig to clean the java.lang.Boolean
+Dig to clean the java.lang.String
+Dig to clean the [C
+Dig to clean the java.lang.Integer
+Transforming OneInputTransformation{id=2, name='TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false)', outputType=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL(org.apache.flink.types.Row, org.apache.flink.table.runtime.typeutils.ExternalSerializer), parallelism=1}
+Transforming LegacySourceTransformation{id=1, name='TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])', outputType=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)>(org.apache.flink.table.data.RowData, org.apache.flink.table.runtime.typeutils.RowDataSerializer), parallelism=1}
+Vertex: 1
+Vertex: 2
+Transforming LegacySinkTransformation{id=3, name='Print to Std. Out', outputType=GenericType<java.lang.Object>, parallelism=1}
+Vertex: 3
+Generated hash 'cbc357ccb763df2852fee8c4fc7d55f2' for node 'Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time])-1' {id: 1, parallelism: 1, user function: org.apache.flink.streaming.api.functions.source.datagen.DataGeneratorSource}
+Generated hash '570f707193e0fe32f4d86d067aba243b' for node 'TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false)-2' {id: 2, parallelism: 1, user function: }
+Generated hash 'b728d985904d42b0fdd945a9e3253fca' for node 'Sink: Print to Std. Out-3' {id: 3, parallelism: 1, user function: org.apache.flink.streaming.api.functions.sink.PrintSinkFunction}
+Parallelism set: 1 for 1
+The configuration option taskmanager.cpu.cores required for local execution is not set, setting it to the maximal possible value.
+The configuration option taskmanager.memory.task.heap.size required for local execution is not set, setting it to the maximal possible value.
+The configuration option taskmanager.memory.task.off-heap.size required for local execution is not set, setting it to the maximal possible value.
+The configuration option taskmanager.memory.network.min required for local execution is not set, setting it to its default value 64 mb.
+The configuration option taskmanager.memory.network.max required for local execution is not set, setting it to its default value 64 mb.
+The configuration option taskmanager.memory.managed.size required for local execution is not set, setting it to its default value 128 mb.
+Starting Flink Mini Cluster
+Using configuration MiniClusterConfiguration {singleRpcService=SHARED, numTaskManagers=1, commonBindAddress='null', config={taskmanager.memory.network.min=64 mb, taskmanager.cpu.cores=1000000.0, taskmanager.memory.task.off-heap.size=1099511627776 bytes, taskmanager.memory.jvm-metaspace.size=256 mb, execution.target=local, cluster.io-pool.size=4, execution.runtime-mode=STREAMING, taskmanager.memory.jvm-overhead.min=1 gb, rest.bind-port=0, taskmanager.memory.network.max=64 mb, taskmanager.memory.framework.off-heap.size=128 mb, execution.attached=true, taskmanager.memory.managed.size=128 mb, taskmanager.memory.framework.heap.size=128 mb, parallelism.default=8, taskmanager.numberOfTaskSlots=1, taskmanager.memory.task.heap.size=1099511627776 bytes, rest.address=localhost, taskmanager.memory.jvm-overhead.max=1 gb, akka.ask.timeout=PT5M}}
+Starting Metrics Registry
+No metrics reporter configured, no metrics will be exposed/reported.
+Starting RPC Service(s)
+Trying to start local actor system
+Using akka configuration
+ Config(SimpleConfigObject({"akka":{"actor":{"allow-java-serialization":"on","default-dispatcher":{"executor":"fork-join-executor","fork-join-executor":{"parallelism-factor":1,"parallelism-max":4,"parallelism-min":2},"throughput":15},"guardian-supervisor-strategy":"org.apache.flink.runtime.rpc.akka.EscalatingSupervisorStrategy","supervisor-dispatcher":{"executor":"thread-pool-executor","thread-pool-executor":{"core-pool-size-max":1,"core-pool-size-min":1},"type":"Dispatcher"},"warn-about-java-serializer-usage":"off"},"daemonic":"off","jvm-exit-on-fatal-error":"on","log-config-on-start":"off","log-dead-letters":"off","log-dead-letters-during-shutdown":"off","logger-startup-timeout":"50s","loggers":["akka.event.slf4j.Slf4jLogger"],"logging-filter":"akka.event.slf4j.Slf4jLoggingFilter","loglevel":"DEBUG","serialize-messages":"off","stdout-loglevel":"OFF"}}))
+Slf4jLogger started
+logger log1-Slf4jLogger started
+Default Loggers started
+Actor system started at akka://flink
+Trying to start local actor system
+Using akka configuration
+ Config(SimpleConfigObject({"akka":{"actor":{"allow-java-serialization":"on","default-dispatcher":{"executor":"thread-pool-executor","thread-pool-executor":{"core-pool-size-max":1,"core-pool-size-min":1},"thread-priority":1,"throughput":15,"type":"org.apache.flink.runtime.rpc.akka.PriorityThreadsDispatcher"},"guardian-supervisor-strategy":"org.apache.flink.runtime.rpc.akka.EscalatingSupervisorStrategy","supervisor-dispatcher":{"executor":"thread-pool-executor","thread-pool-executor":{"core-pool-size-max":1,"core-pool-size-min":1},"type":"Dispatcher"},"warn-about-java-serializer-usage":"off"},"daemonic":"off","jvm-exit-on-fatal-error":"on","log-config-on-start":"off","log-dead-letters":"off","log-dead-letters-during-shutdown":"off","logger-startup-timeout":"50s","loggers":["akka.event.slf4j.Slf4jLogger"],"logging-filter":"akka.event.slf4j.Slf4jLoggingFilter","loglevel":"DEBUG","serialize-messages":"off","stdout-loglevel":"OFF"}}))
+Slf4jLogger started
+logger log1-Slf4jLogger started
+Default Loggers started
+Actor system started at akka://flink-metrics
+Starting AkkaRpcActor with name MetricQueryService.
+Starting RPC endpoint for org.apache.flink.runtime.metrics.dump.MetricQueryService at akka://flink-metrics/user/rpc/MetricQueryService .
+Starting high-availability services
+Created BLOB server storage directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/blobStore-8108a750-8fce-40c9-ba79-f8918e527961
+Trying to open socket on port 0
+Started BLOB server at 0.0.0.0:57919 - max concurrent requests: 50 - max backlog: 1000
+Created BLOB cache storage directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/blobStore-fa0b9b10-486a-4f44-83c5-9dcc68e4cf14
+Created BLOB cache storage directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/blobStore-e50146dc-96b9-4e3c-a433-aceb0f6a6b7e
+Starting 1 TaskManger(s)
+Starting TaskManager with ResourceID: 3deba52a-accc-4273-a498-9b34d6571b18
+Temporary file directory '/var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T': total 926 GB, usable 712 GB (76.89% usable)
+FileChannelManager uses directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-io-b49faa55-d9f5-41e6-8da4-f49813c648c4 for spill files.
+Created a new FileChannelManager for spilling of task related data to disk (joins, sorting, ...). Used directories:
+	/var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-io-b49faa55-d9f5-41e6-8da4-f49813c648c4
+FileChannelManager uses directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-netty-shuffle-df849a45-052d-4251-83bb-6f7bfa2c11bf for spill files.
+Created a new FileChannelManager for storing result partitions of BLOCKING shuffles. Used directories:
+	/var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-netty-shuffle-df849a45-052d-4251-83bb-6f7bfa2c11bf
+Allocated 64 MB for network buffer pool (number of memory segments: 2048, bytes per segment: 32768).
+Starting the network environment and its components.
+Starting network connection manager
+Starting the kvState service and its components.
+Messages have a max timeout of 300000 ms
+Config uses fallback configuration key 'akka.ask.timeout' instead of key 'taskmanager.slot.timeout'
+Starting AkkaRpcActor with name taskmanager_0.
+Starting RPC endpoint for org.apache.flink.runtime.taskexecutor.TaskExecutor at akka://flink/user/rpc/taskmanager_0 .
+Start job leader service.
+User file cache uses directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-dist-cache-12c286a3-7e38-40fc-9290-24129d710621
+Starting Dispatcher REST endpoint.
+Starting rest endpoint.
+Failed to load web based job submission extension.
+org.apache.flink.util.FlinkException: The module flink-runtime-web could not be found in the class path. Please add this jar in order to enable web based job submission.
+	at org.apache.flink.runtime.webmonitor.WebMonitorUtils.loadWebSubmissionExtension(WebMonitorUtils.java:197)
+	at org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint.initializeWebSubmissionHandlers(DispatcherRestEndpoint.java:110)
+	at org.apache.flink.runtime.webmonitor.WebMonitorEndpoint.initializeHandlers(WebMonitorEndpoint.java:262)
+	at org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint.initializeHandlers(DispatcherRestEndpoint.java:87)
+	at org.apache.flink.runtime.rest.RestServerEndpoint.start(RestServerEndpoint.java:178)
+	at org.apache.flink.runtime.entrypoint.component.DefaultDispatcherResourceManagerComponentFactory.create(DefaultDispatcherResourceManagerComponentFactory.java:172)
+	at org.apache.flink.runtime.minicluster.MiniCluster.createDispatcherResourceManagerComponents(MiniCluster.java:477)
+	at org.apache.flink.runtime.minicluster.MiniCluster.setupDispatcherResourceManagerComponents(MiniCluster.java:436)
+	at org.apache.flink.runtime.minicluster.MiniCluster.start(MiniCluster.java:380)
+	at org.apache.flink.client.program.PerJobMiniClusterFactory.submitJob(PerJobMiniClusterFactory.java:75)
+	at org.apache.flink.client.deployment.executors.LocalExecutor.execute(LocalExecutor.java:85)
+	at org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.executeAsync(StreamExecutionEnvironment.java:2043)
+	at org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.execute(StreamExecutionEnvironment.java:1931)
+	at org.apache.flink.streaming.api.environment.LocalStreamEnvironment.execute(LocalStreamEnvironment.java:69)
+	at org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.execute(StreamExecutionEnvironment.java:1917)
+	at com.joey.example.DatagenOrder.main(DatagenOrder.java:38)
+Using SLF4J as the default logging framework
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+Log file environment variable 'log.file' is not set.
+JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+-Dio.netty.noUnsafe: false
+Java version: 8
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+java.nio.Buffer.address: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+java.nio.DirectByteBuffer.<init>(long, int): available
+sun.misc.Unsafe: available
+-Dio.netty.tmpdir: /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+Platform: MacOS
+-Dio.netty.maxDirectMemory: 3817865216 bytes
+-Dio.netty.uninitializedArrayAllocationThreshold: -1
+java.nio.ByteBuffer.cleaner(): available
+-Dio.netty.noPreferDirect: false
+Register handler org.apache.flink.runtime.rest.handler.cluster.ShutdownHandler@194224ca under DELETE@/v1/cluster.
+Register handler org.apache.flink.runtime.rest.handler.cluster.ShutdownHandler@194224ca under DELETE@/cluster.
+Register handler org.apache.flink.runtime.rest.handler.cluster.DashboardConfigHandler@13dc6649 under GET@/v1/config.
+Register handler org.apache.flink.runtime.rest.handler.cluster.DashboardConfigHandler@13dc6649 under GET@/config.
+Register handler org.apache.flink.runtime.rest.handler.dataset.ClusterDataSetListHandler@1851c7d2 under GET@/v1/datasets.
+Register handler org.apache.flink.runtime.rest.handler.dataset.ClusterDataSetListHandler@1851c7d2 under GET@/datasets.
+Register handler org.apache.flink.runtime.rest.handler.dataset.ClusterDataSetDeleteHandlers$ClusterDataSetDeleteStatusHandler@250a946 under GET@/v1/datasets/delete/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.dataset.ClusterDataSetDeleteHandlers$ClusterDataSetDeleteStatusHandler@250a946 under GET@/datasets/delete/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.dataset.ClusterDataSetDeleteHandlers$ClusterDataSetDeleteTriggerHandler@5fe5c68b under DELETE@/v1/datasets/:datasetid.
+Register handler org.apache.flink.runtime.rest.handler.dataset.ClusterDataSetDeleteHandlers$ClusterDataSetDeleteTriggerHandler@5fe5c68b under DELETE@/datasets/:datasetid.
+Register handler org.apache.flink.runtime.rest.handler.cluster.ClusterConfigHandler@2ffb0d10 under GET@/v1/jobmanager/config.
+Register handler org.apache.flink.runtime.rest.handler.cluster.ClusterConfigHandler@2ffb0d10 under GET@/jobmanager/config.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerLogFileHandler@3982206a under GET@/v1/jobmanager/log.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerLogFileHandler@3982206a under GET@/jobmanager/log.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerLogListHandler@3e9fb485 under GET@/v1/jobmanager/logs.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerLogListHandler@3e9fb485 under GET@/jobmanager/logs.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerCustomLogHandler@4f3fec43 under GET@/v1/jobmanager/logs/:filename.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerCustomLogHandler@4f3fec43 under GET@/jobmanager/logs/:filename.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobManagerMetricsHandler@38dbeb39 under GET@/v1/jobmanager/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobManagerMetricsHandler@38dbeb39 under GET@/jobmanager/metrics.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerLogFileHandler@10f20d38 under GET@/v1/jobmanager/stdout.
+Register handler org.apache.flink.runtime.rest.handler.cluster.JobManagerLogFileHandler@10f20d38 under GET@/jobmanager/stdout.
+Register handler org.apache.flink.runtime.rest.handler.job.JobIdsHandler@538aa83f under GET@/v1/jobs.
+Register handler org.apache.flink.runtime.rest.handler.job.JobIdsHandler@538aa83f under GET@/jobs.
+Register handler org.apache.flink.runtime.rest.handler.job.JobSubmitHandler@63e70bf9 under POST@/v1/jobs.
+Register handler org.apache.flink.runtime.rest.handler.job.JobSubmitHandler@63e70bf9 under POST@/jobs.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.AggregatingJobsMetricsHandler@402a69f under GET@/v1/jobs/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.AggregatingJobsMetricsHandler@402a69f under GET@/jobs/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.JobsOverviewHandler@419f0ea under GET@/v1/jobs/overview.
+Register handler org.apache.flink.runtime.rest.handler.job.JobsOverviewHandler@419f0ea under GET@/jobs/overview.
+Register handler org.apache.flink.runtime.rest.handler.job.JobDetailsHandler@2d47b06 under GET@/v1/jobs/:jobid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobDetailsHandler@2d47b06 under GET@/jobs/:jobid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobCancellationHandler@59371066 under PATCH@/v1/jobs/:jobid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobCancellationHandler@59371066 under PATCH@/jobs/:jobid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobAccumulatorsHandler@48106381 under GET@/v1/jobs/:jobid/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.JobAccumulatorsHandler@48106381 under GET@/jobs/:jobid/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.CheckpointingStatisticsHandler@3c544c9 under GET@/v1/jobs/:jobid/checkpoints.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.CheckpointingStatisticsHandler@3c544c9 under GET@/jobs/:jobid/checkpoints.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.CheckpointConfigHandler@22e813fc under GET@/v1/jobs/:jobid/checkpoints/config.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.CheckpointConfigHandler@22e813fc under GET@/jobs/:jobid/checkpoints/config.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.CheckpointStatisticDetailsHandler@433d93e7 under GET@/v1/jobs/:jobid/checkpoints/details/:checkpointid.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.CheckpointStatisticDetailsHandler@433d93e7 under GET@/jobs/:jobid/checkpoints/details/:checkpointid.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.TaskCheckpointStatisticDetailsHandler@87aec6a under GET@/v1/jobs/:jobid/checkpoints/details/:checkpointid/subtasks/:vertexid.
+Register handler org.apache.flink.runtime.rest.handler.job.checkpoints.TaskCheckpointStatisticDetailsHandler@87aec6a under GET@/jobs/:jobid/checkpoints/details/:checkpointid/subtasks/:vertexid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobConfigHandler@213012a0 under GET@/v1/jobs/:jobid/config.
+Register handler org.apache.flink.runtime.rest.handler.job.JobConfigHandler@213012a0 under GET@/jobs/:jobid/config.
+Register handler org.apache.flink.runtime.rest.handler.job.coordination.ClientCoordinationHandler@43a59289 under POST@/v1/jobs/:jobid/coordinators/:operatorid.
+Register handler org.apache.flink.runtime.rest.handler.job.coordination.ClientCoordinationHandler@43a59289 under POST@/jobs/:jobid/coordinators/:operatorid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobExceptionsHandler@6c2883b1 under GET@/v1/jobs/:jobid/exceptions.
+Register handler org.apache.flink.runtime.rest.handler.job.JobExceptionsHandler@6c2883b1 under GET@/jobs/:jobid/exceptions.
+Register handler org.apache.flink.runtime.rest.handler.job.JobExecutionResultHandler@336e3be2 under GET@/v1/jobs/:jobid/execution-result.
+Register handler org.apache.flink.runtime.rest.handler.job.JobExecutionResultHandler@336e3be2 under GET@/jobs/:jobid/execution-result.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobMetricsHandler@126a9a3d under GET@/v1/jobs/:jobid/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobMetricsHandler@126a9a3d under GET@/jobs/:jobid/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.JobPlanHandler@7db47323 under GET@/v1/jobs/:jobid/plan.
+Register handler org.apache.flink.runtime.rest.handler.job.JobPlanHandler@7db47323 under GET@/jobs/:jobid/plan.
+Register handler org.apache.flink.runtime.rest.handler.job.rescaling.RescalingHandlers$RescalingTriggerHandler@5529522f under PATCH@/v1/jobs/:jobid/rescaling.
+Register handler org.apache.flink.runtime.rest.handler.job.rescaling.RescalingHandlers$RescalingTriggerHandler@5529522f under PATCH@/jobs/:jobid/rescaling.
+Register handler org.apache.flink.runtime.rest.handler.job.rescaling.RescalingHandlers$RescalingStatusHandler@175ac243 under GET@/v1/jobs/:jobid/rescaling/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.job.rescaling.RescalingHandlers$RescalingStatusHandler@175ac243 under GET@/jobs/:jobid/rescaling/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointHandlers$SavepointTriggerHandler@51a719e7 under POST@/v1/jobs/:jobid/savepoints.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointHandlers$SavepointTriggerHandler@51a719e7 under POST@/jobs/:jobid/savepoints.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointHandlers$SavepointStatusHandler@fd4459b under GET@/v1/jobs/:jobid/savepoints/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointHandlers$SavepointStatusHandler@fd4459b under GET@/jobs/:jobid/savepoints/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointHandlers$StopWithSavepointHandler@1073c664 under POST@/v1/jobs/:jobid/stop.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointHandlers$StopWithSavepointHandler@1073c664 under POST@/jobs/:jobid/stop.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexDetailsHandler@517a46f3 under GET@/v1/jobs/:jobid/vertices/:vertexid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexDetailsHandler@517a46f3 under GET@/jobs/:jobid/vertices/:vertexid.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexAccumulatorsHandler@38fb151a under GET@/v1/jobs/:jobid/vertices/:vertexid/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexAccumulatorsHandler@38fb151a under GET@/jobs/:jobid/vertices/:vertexid/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexBackPressureHandler@152e7703 under GET@/v1/jobs/:jobid/vertices/:vertexid/backpressure.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexBackPressureHandler@152e7703 under GET@/jobs/:jobid/vertices/:vertexid/backpressure.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexFlameGraphHandler$DisabledJobVertexFlameGraphHandler@1b60d324 under GET@/v1/jobs/:jobid/vertices/:vertexid/flamegraph.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexFlameGraphHandler$DisabledJobVertexFlameGraphHandler@1b60d324 under GET@/jobs/:jobid/vertices/:vertexid/flamegraph.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobVertexMetricsHandler@182e4365 under GET@/v1/jobs/:jobid/vertices/:vertexid/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobVertexMetricsHandler@182e4365 under GET@/jobs/:jobid/vertices/:vertexid/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtasksAllAccumulatorsHandler@789dd6bf under GET@/v1/jobs/:jobid/vertices/:vertexid/subtasks/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtasksAllAccumulatorsHandler@789dd6bf under GET@/jobs/:jobid/vertices/:vertexid/subtasks/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.AggregatingSubtasksMetricsHandler@1e6d30c0 under GET@/v1/jobs/:jobid/vertices/:vertexid/subtasks/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.AggregatingSubtasksMetricsHandler@1e6d30c0 under GET@/jobs/:jobid/vertices/:vertexid/subtasks/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtaskCurrentAttemptDetailsHandler@38929da under GET@/v1/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtaskCurrentAttemptDetailsHandler@38929da under GET@/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtaskExecutionAttemptDetailsHandler@69d667a5 under GET@/v1/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex/attempts/:attempt.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtaskExecutionAttemptDetailsHandler@69d667a5 under GET@/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex/attempts/:attempt.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtaskExecutionAttemptAccumulatorsHandler@7fe87c0e under GET@/v1/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex/attempts/:attempt/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtaskExecutionAttemptAccumulatorsHandler@7fe87c0e under GET@/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex/attempts/:attempt/accumulators.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.SubtaskMetricsHandler@8f4b803 under GET@/v1/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.SubtaskMetricsHandler@8f4b803 under GET@/jobs/:jobid/vertices/:vertexid/subtasks/:subtaskindex/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtasksTimesHandler@42f9873e under GET@/v1/jobs/:jobid/vertices/:vertexid/subtasktimes.
+Register handler org.apache.flink.runtime.rest.handler.job.SubtasksTimesHandler@42f9873e under GET@/jobs/:jobid/vertices/:vertexid/subtasktimes.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexTaskManagersHandler@18483b8b under GET@/v1/jobs/:jobid/vertices/:vertexid/taskmanagers.
+Register handler org.apache.flink.runtime.rest.handler.job.JobVertexTaskManagersHandler@18483b8b under GET@/jobs/:jobid/vertices/:vertexid/taskmanagers.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobVertexWatermarksHandler@24fc2c80 under GET@/v1/jobs/:jobid/vertices/:vertexid/watermarks.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.JobVertexWatermarksHandler@24fc2c80 under GET@/jobs/:jobid/vertices/:vertexid/watermarks.
+Register handler org.apache.flink.runtime.rest.handler.job.JobCancellationHandler@965bcbc under GET@/v1/jobs/:jobid/yarn-cancel.
+Register handler org.apache.flink.runtime.rest.handler.job.JobCancellationHandler@965bcbc under GET@/jobs/:jobid/yarn-cancel.
+Register handler org.apache.flink.runtime.rest.handler.job.JobCancellationHandler@7ab1ad9 under GET@/v1/jobs/:jobid/yarn-stop.
+Register handler org.apache.flink.runtime.rest.handler.job.JobCancellationHandler@7ab1ad9 under GET@/jobs/:jobid/yarn-stop.
+Register handler org.apache.flink.runtime.rest.handler.cluster.ClusterOverviewHandler@5ee6fdc4 under GET@/v1/overview.
+Register handler org.apache.flink.runtime.rest.handler.cluster.ClusterOverviewHandler@5ee6fdc4 under GET@/overview.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointDisposalHandlers$SavepointDisposalTriggerHandler@1bbb42b4 under POST@/v1/savepoint-disposal.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointDisposalHandlers$SavepointDisposalTriggerHandler@1bbb42b4 under POST@/savepoint-disposal.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointDisposalHandlers$SavepointDisposalStatusHandler@3f9f8d23 under GET@/v1/savepoint-disposal/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.job.savepoints.SavepointDisposalHandlers$SavepointDisposalStatusHandler@3f9f8d23 under GET@/savepoint-disposal/:triggerid.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagersHandler@603d25db under GET@/v1/taskmanagers.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagersHandler@603d25db under GET@/taskmanagers.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.AggregatingTaskManagersMetricsHandler@95cecc5 under GET@/v1/taskmanagers/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.AggregatingTaskManagersMetricsHandler@95cecc5 under GET@/taskmanagers/metrics.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerDetailsHandler@48b3b1b8 under GET@/v1/taskmanagers/:taskmanagerid.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerDetailsHandler@48b3b1b8 under GET@/taskmanagers/:taskmanagerid.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerLogFileHandler@b86cb18 under GET@/v1/taskmanagers/:taskmanagerid/log.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerLogFileHandler@b86cb18 under GET@/taskmanagers/:taskmanagerid/log.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerLogListHandler@29c244e under GET@/v1/taskmanagers/:taskmanagerid/logs.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerLogListHandler@29c244e under GET@/taskmanagers/:taskmanagerid/logs.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerCustomLogHandler@6cc8da1c under GET@/v1/taskmanagers/:taskmanagerid/logs/:filename.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerCustomLogHandler@6cc8da1c under GET@/taskmanagers/:taskmanagerid/logs/:filename.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.TaskManagerMetricsHandler@39a3984c under GET@/v1/taskmanagers/:taskmanagerid/metrics.
+Register handler org.apache.flink.runtime.rest.handler.job.metrics.TaskManagerMetricsHandler@39a3984c under GET@/taskmanagers/:taskmanagerid/metrics.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerStdoutFileHandler@4404a6b under GET@/v1/taskmanagers/:taskmanagerid/stdout.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerStdoutFileHandler@4404a6b under GET@/taskmanagers/:taskmanagerid/stdout.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerThreadDumpHandler@671da0f9 under GET@/v1/taskmanagers/:taskmanagerid/thread-dump.
+Register handler org.apache.flink.runtime.rest.handler.taskmanager.TaskManagerThreadDumpHandler@671da0f9 under GET@/taskmanagers/:taskmanagerid/thread-dump.
+-Dio.netty.eventLoopThreads: 16
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+-Dio.netty.processId: 24988 (auto-detected)
+-Djava.net.preferIPv4Stack: false
+-Djava.net.preferIPv6Addresses: false
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+-Dio.netty.machineId: 3c:06:30:ff:fe:0f:a0:1c (auto-detected)
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.level: simple
+-Dorg.apache.flink.shaded.netty4.io.netty.leakDetection.targetRecords: 4
+-Dio.netty.allocator.numHeapArenas: 16
+-Dio.netty.allocator.numDirectArenas: 16
+-Dio.netty.allocator.pageSize: 8192
+-Dio.netty.allocator.maxOrder: 11
+-Dio.netty.allocator.chunkSize: 16777216
+-Dio.netty.allocator.smallCacheSize: 256
+-Dio.netty.allocator.normalCacheSize: 64
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+-Dio.netty.allocator.cacheTrimInterval: 8192
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+-Dio.netty.allocator.useCacheForAllThreads: true
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+-Dio.netty.allocator.type: pooled
+-Dio.netty.threadLocalDirectBufferSize: 0
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Binding rest endpoint to null:0.
+Rest endpoint listening at localhost:57920
+Proposing leadership to contender http://localhost:57920
+http://localhost:57920 was granted leadership with leaderSessionID=9eb013e1-8f82-417b-a17b-53219297514c
+Received confirmation of leadership for leader http://localhost:57920 , session=9eb013e1-8f82-417b-a17b-53219297514c
+Starting Dispatcher.
+Proposing leadership to contender LeaderContender: DefaultDispatcherRunner
+Starting ResourceManagerService.
+Starting resource manager service.
+Proposing leadership to contender LeaderContender: ResourceManagerServiceImpl
+DefaultDispatcherRunner was granted leadership with leader id cee6ae1c-d140-460c-80ca-89268cbf0a43. Creating new DispatcherLeaderProcess.
+Resource manager service is granted leadership with session id ae7c73ac-62cd-4d9a-ad98-70ac1cb6e893.
+Flink Mini Cluster started successfully
+Start SessionDispatcherLeaderProcess.
+Recover all persisted job graphs.
+Successfully recovered 0 persisted job graphs.
+Starting FencedAkkaRpcActor with name dispatcher_1.
+Starting RPC endpoint for org.apache.flink.runtime.dispatcher.StandaloneDispatcher at akka://flink/user/rpc/dispatcher_1 .
+Starting FencedAkkaRpcActor with name resourcemanager_2.
+Starting RPC endpoint for org.apache.flink.runtime.resourcemanager.StandaloneResourceManager at akka://flink/user/rpc/resourcemanager_2 .
+Starting the resource manager.
+Received confirmation of leadership for leader akka://flink/user/rpc/dispatcher_1 , session=cee6ae1c-d140-460c-80ca-89268cbf0a43
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/dispatcher_1. Returning a org.apache.flink.runtime.dispatcher.DispatcherGateway gateway.
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/dispatcher_1. Returning a org.apache.flink.runtime.dispatcher.DispatcherGateway gateway.
+Starting the slot manager.
+Trigger heartbeat request.
+Trigger heartbeat request.
+Received confirmation of leadership for leader akka://flink/user/rpc/resourcemanager_2 , session=ae7c73ac-62cd-4d9a-ad98-70ac1cb6e893
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/resourcemanager_2. Returning a org.apache.flink.runtime.resourcemanager.ResourceManagerGateway gateway.
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/resourcemanager_2. Returning a org.apache.flink.runtime.resourcemanager.ResourceManagerGateway gateway.
+Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_2(ad9870ac1cb6e893ae7c73ac62cd4d9a).
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/resourcemanager_2. Returning a org.apache.flink.runtime.resourcemanager.ResourceManagerGateway gateway.
+Resolved ResourceManager address, beginning registration
+Registration at ResourceManager attempt 1 (timeout=100ms)
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/taskmanager_0. Returning a org.apache.flink.runtime.taskexecutor.TaskExecutorGateway gateway.
+Registering TaskManager with ResourceID 3deba52a-accc-4273-a498-9b34d6571b18 (akka://flink/user/rpc/taskmanager_0) at ResourceManager
+Received JobGraph submission 'DatagenOrder' (83edf0df384d1165e38f0a1e3af7e151).
+Submitting job 'DatagenOrder' (83edf0df384d1165e38f0a1e3af7e151).
+Registration with ResourceManager at akka://flink/user/rpc/resourcemanager_2 was successful.
+Successful registration at resource manager akka://flink/user/rpc/resourcemanager_2 under registration id 2faf366dfaca08a8b30b64b14bd032a3.
+Registering task executor 3deba52a-accc-4273-a498-9b34d6571b18 under 2faf366dfaca08a8b30b64b14bd032a3 at the slot manager.
+Start leadership runner for job 83edf0df384d1165e38f0a1e3af7e151.
+Proposing leadership to contender LeaderContender: JobMasterServiceLeadershipRunner
+Create new JobMasterServiceProcess because we were granted leadership under f49e60d1-fe9e-4536-bc40-3e7bc87c507c.
+Wait until job initialization is finished
+Starting FencedAkkaRpcActor with name jobmanager_3.
+Starting RPC endpoint for org.apache.flink.runtime.jobmaster.JobMaster at akka://flink/user/rpc/jobmanager_3 .
+Initializing job 'DatagenOrder' (83edf0df384d1165e38f0a1e3af7e151).
+Using restart back off time strategy NoRestartBackoffTimeStrategy for DatagenOrder (83edf0df384d1165e38f0a1e3af7e151).
+Running initialization on master for job DatagenOrder (83edf0df384d1165e38f0a1e3af7e151).
+Successfully ran initialization on master in 0 ms.
+Adding 1 vertices from job graph DatagenOrder (83edf0df384d1165e38f0a1e3af7e151).
+Attaching 1 topologically sorted vertices to existing job graph with 0 vertices and 0 intermediate results.
+Connecting ExecutionJobVertex cbc357ccb763df2852fee8c4fc7d55f2 (Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out) to 0 predecessors.
+Built 1 pipelined regions in 0 ms
+Successfully created execution graph from job graph DatagenOrder (83edf0df384d1165e38f0a1e3af7e151).
+No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@f03269
+State backend loader loads the state backend as HashMapStateBackend
+The configuration state.checkpoint-storage has not be set in the current sessions flink-conf.yaml. Falling back to a default CheckpointStorage type. Users are strongly encouraged explicitly set this configuration so they understand how their applications are checkpointing snapshots for fault-tolerance.
+Checkpoint storage is set to 'jobmanager'
+Status of the shared state registry of job 83edf0df384d1165e38f0a1e3af7e151 after restore: SharedStateRegistry{registeredStates={}}.
+No checkpoint found during restore.
+Resetting the master hooks.
+Using failover strategy org.apache.flink.runtime.executiongraph.failover.flip1.RestartPipelinedRegionFailoverStrategy@5360ec7a for DatagenOrder (83edf0df384d1165e38f0a1e3af7e151).
+Successfully created the JobMasterService for job 83edf0df384d1165e38f0a1e3af7e151 under leader id f49e60d1-fe9e-4536-bc40-3e7bc87c507c.
+Confirm leadership f49e60d1-fe9e-4536-bc40-3e7bc87c507c.
+Received confirmation of leadership for leader akka://flink/user/rpc/jobmanager_3 , session=f49e60d1-fe9e-4536-bc40-3e7bc87c507c
+Starting execution of job 'DatagenOrder' (83edf0df384d1165e38f0a1e3af7e151) under job master id bc403e7bc87c507cf49e60d1fe9e4536.
+Starting scheduling with scheduling strategy [org.apache.flink.runtime.scheduler.strategy.PipelinedRegionSchedulingStrategy]
+Job DatagenOrder (83edf0df384d1165e38f0a1e3af7e151) switched from state CREATED to RUNNING.
+Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1) (b16ee24c0c901b6227dd799ac121ede8) switched from CREATED to SCHEDULED.
+Received slot request [SlotRequestId{636b67655bb7a0f21f88dfb5d93bfcce}] with resource requirements: ResourceProfile{UNKNOWN}
+Request new allocated slot with slot request id SlotRequestId{636b67655bb7a0f21f88dfb5d93bfcce} and resource profile ResourceProfile{UNKNOWN}
+Declare new resource requirements for job 83edf0df384d1165e38f0a1e3af7e151.
+	required resources: [ResourceRequirement{resourceProfile=ResourceProfile{UNKNOWN}, numberOfRequiredSlots=1}]
+	acquired resources: ResourceCounter{resources={}}
+Request a logical slot (SlotRequestId{93e8cc62f5439ee961b0397bbf744877}) for execution vertex (id cbc357ccb763df2852fee8c4fc7d55f2_0) from the physical slot (SlotRequestId{636b67655bb7a0f21f88dfb5d93bfcce})
+Trigger heartbeat request.
+Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_2(ad9870ac1cb6e893ae7c73ac62cd4d9a)
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/resourcemanager_2. Returning a org.apache.flink.runtime.resourcemanager.ResourceManagerGateway gateway.
+Resolved ResourceManager address, beginning registration
+Registration at ResourceManager attempt 1 (timeout=100ms)
+Add job 83edf0df384d1165e38f0a1e3af7e151 to job leader id monitoring.
+Registering job manager bc403e7bc87c507cf49e60d1fe9e4536@akka://flink/user/rpc/jobmanager_3 for job 83edf0df384d1165e38f0a1e3af7e151.
+Job 83edf0df384d1165e38f0a1e3af7e151 has a new job leader f49e60d1-fe9e-4536-bc40-3e7bc87c507c@akka://flink/user/rpc/jobmanager_3.
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/jobmanager_3. Returning a org.apache.flink.runtime.jobmaster.JobMasterGateway gateway.
+Registered job manager bc403e7bc87c507cf49e60d1fe9e4536@akka://flink/user/rpc/jobmanager_3 for job 83edf0df384d1165e38f0a1e3af7e151.
+Registration with ResourceManager at akka://flink/user/rpc/resourcemanager_2 was successful.
+JobManager successfully registered at ResourceManager, leader id: ad9870ac1cb6e893ae7c73ac62cd4d9a.
+Received resource requirements from job 83edf0df384d1165e38f0a1e3af7e151: [ResourceRequirement{resourceProfile=ResourceProfile{UNKNOWN}, numberOfRequiredSlots=1}]
+Initiating tracking of resources for job 83edf0df384d1165e38f0a1e3af7e151.
+Starting allocation of slot 3deba52a-accc-4273-a498-9b34d6571b18_0 for job 83edf0df384d1165e38f0a1e3af7e151 with resource profile ResourceProfile{UNKNOWN}.
+Receive slot request df51d2cffbb2b7df6387dbaa2b8af54b for job 83edf0df384d1165e38f0a1e3af7e151 from resource manager with leader id ad9870ac1cb6e893ae7c73ac62cd4d9a.
+Initialized MemoryManager with total memory size 134217728 and page size 32768.
+Allocated slot for df51d2cffbb2b7df6387dbaa2b8af54b.
+Add job 83edf0df384d1165e38f0a1e3af7e151 for job leader monitoring.
+New leader information for job 83edf0df384d1165e38f0a1e3af7e151. Address: akka://flink/user/rpc/jobmanager_3, leader id: bc403e7bc87c507cf49e60d1fe9e4536.
+Try to register at job manager akka://flink/user/rpc/jobmanager_3 with leader id f49e60d1-fe9e-4536-bc40-3e7bc87c507c.
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/jobmanager_3. Returning a org.apache.flink.runtime.jobmaster.JobMasterGateway gateway.
+Resolved JobManager address, beginning registration
+Registration at JobManager attempt 1 (timeout=100ms)
+Try to connect to remote RPC endpoint with address akka://flink/user/rpc/taskmanager_0. Returning a org.apache.flink.runtime.taskexecutor.TaskExecutorGateway gateway.
+Register new TaskExecutor 3deba52a-accc-4273-a498-9b34d6571b18.
+Registration with JobManager at akka://flink/user/rpc/jobmanager_3 was successful.
+Successful registration at job manager akka://flink/user/rpc/jobmanager_3 for job 83edf0df384d1165e38f0a1e3af7e151.
+Establish JobManager connection for job 83edf0df384d1165e38f0a1e3af7e151.
+Offer reserved slots to the leader of job 83edf0df384d1165e38f0a1e3af7e151.
+Received 1 slot offers from TaskExecutor 3deba52a-accc-4273-a498-9b34d6571b18 @ localhost (dataPort=-1).
+Matched slot offer df51d2cffbb2b7df6387dbaa2b8af54b to requirement ResourceProfile{UNKNOWN}.
+Acquired new resources; new total acquired resources: ResourceCounter{resources={ResourceProfile{UNKNOWN}=1}}
+Matched slot AllocatedSlot df51d2cffbb2b7df6387dbaa2b8af54b @ 3deba52a-accc-4273-a498-9b34d6571b18 @ localhost (dataPort=-1) - 0 to pending request PendingRequest{slotRequestId=SlotRequestId{636b67655bb7a0f21f88dfb5d93bfcce}, resourceProfile=ResourceProfile{UNKNOWN}, isBatchRequest=false, unfulfillableSince=9223372036854775807}.
+Reserve slot df51d2cffbb2b7df6387dbaa2b8af54b for slot request id SlotRequestId{636b67655bb7a0f21f88dfb5d93bfcce}
+Reserve free slot with allocation id df51d2cffbb2b7df6387dbaa2b8af54b.
+Allocated logical slot (SlotRequestId{93e8cc62f5439ee961b0397bbf744877}) for execution vertex (id cbc357ccb763df2852fee8c4fc7d55f2_0) from the physical slot (SlotRequestId{636b67655bb7a0f21f88dfb5d93bfcce})
+Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1) (b16ee24c0c901b6227dd799ac121ede8) switched from SCHEDULED to DEPLOYING.
+Deploying Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1) (attempt #0) with attempt id b16ee24c0c901b6227dd799ac121ede8 to 3deba52a-accc-4273-a498-9b34d6571b18 @ localhost (dataPort=-1) with allocation id df51d2cffbb2b7df6387dbaa2b8af54b
+Activate slot df51d2cffbb2b7df6387dbaa2b8af54b.
+Registered new allocation id df51d2cffbb2b7df6387dbaa2b8af54b for local state stores for job 83edf0df384d1165e38f0a1e3af7e151.
+Registered new local state store with configuration LocalRecoveryConfig{localRecoveryMode=false, localStateDirectories=LocalRecoveryDirectoryProvider{rootDirectories=[/var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/localState/aid_df51d2cffbb2b7df6387dbaa2b8af54b], jobID=83edf0df384d1165e38f0a1e3af7e151, jobVertexID=cbc357ccb763df2852fee8c4fc7d55f2, subtaskIndex=0}} for 83edf0df384d1165e38f0a1e3af7e151 - cbc357ccb763df2852fee8c4fc7d55f2 - 0 under allocation id df51d2cffbb2b7df6387dbaa2b8af54b.
+StateChangelogStorageLoader initialized with shortcut names {memory}.
+Creating a changelog storage with name 'memory'.
+Registered new state changelog storage for job 83edf0df384d1165e38f0a1e3af7e151 : org.apache.flink.runtime.state.changelog.inmemory.InMemoryStateChangelogStorage@6b334f5d.
+Received task Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8), deploy into slot with allocation id df51d2cffbb2b7df6387dbaa2b8af54b.
+Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8) switched from CREATED to DEPLOYING.
+Creating FileSystem stream leak safety net for task Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8) [DEPLOYING]
+Activate slot df51d2cffbb2b7df6387dbaa2b8af54b.
+Loading JAR files for task Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8) [DEPLOYING].
+Getting user code class loader for task b16ee24c0c901b6227dd799ac121ede8 at library cache manager took 0 milliseconds
+Registering task at network: Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8) [DEPLOYING].
+No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@3ec8e098
+State backend loader loads the state backend as HashMapStateBackend
+The configuration state.checkpoint-storage has not be set in the current sessions flink-conf.yaml. Falling back to a default CheckpointStorage type. Users are strongly encouraged explicitly set this configuration so they understand how their applications are checkpointing snapshots for fault-tolerance.
+Checkpoint storage is set to 'jobmanager'
+Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8) switched from DEPLOYING to INITIALIZING.
+Initializing Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0.
+Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1) (b16ee24c0c901b6227dd799ac121ede8) switched from DEPLOYING to INITIALIZING.
+The operator name TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) exceeded the 80 characters length limit and was truncated.
+The operator name Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) exceeded the 80 characters length limit and was truncated.
+Invoking Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0
+Creating operator state backend for StreamSink_b728d985904d42b0fdd945a9e3253fca_(1/1) with empty state.
+Creating operator state backend for OutputConversionOperator_570f707193e0fe32f4d86d067aba243b_(1/1) with empty state.
+Creating operator state backend for StreamSource_cbc357ccb763df2852fee8c4fc7d55f2_(1/1) with empty state.
+Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8) switched from INITIALIZING to RUNNING.
+Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1) (b16ee24c0c901b6227dd799ac121ede8) switched from INITIALIZING to RUNNING.
+Legacy source Source: TableSourceScan(table=[[default_catalog, default_database, Orders]], fields=[order_number, price, buyer, order_time]) -> TableToDataSteam(type=ROW<`order_number` BIGINT, `price` DECIMAL(32, 2), `buyer` ROW<`first_name` STRING, `last_name` STRING>, `order_time` TIMESTAMP(3)> NOT NULL, rowtime=false) -> Sink: Print to Std. Out (1/1)#0 (b16ee24c0c901b6227dd799ac121ede8) skip execution since the task is finished on restore
+Shutting down I/O manager.
+Shutting down TaskExecutorStateChangelogStoragesManager.
+Shutting down TaskExecutorLocalStateStoresManager.
+Shutting down BLOB cache
+Shutting down BLOB cache
+FileChannelManager removed spill file directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-io-b49faa55-d9f5-41e6-8da4-f49813c648c4
+removed file cache directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-dist-cache-12c286a3-7e38-40fc-9290-24129d710621
+FileChannelManager removed spill file directory /var/folders/6l/427qk1591m9cwdrmlwyh_w000000gn/T/flink-netty-shuffle-df849a45-052d-4251-83bb-6f7bfa2c11bf
+Stopped BLOB server at 0.0.0.0:57919
